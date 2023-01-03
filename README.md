@@ -1,4 +1,6 @@
-# NextJS 
+# Personal web Eko Nur Arifin
+
+## stack : NextJS 
 
 ### on Netlify
 https://ekonurarifin.netlify.app/
