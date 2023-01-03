@@ -1,5 +1,8 @@
 # NextJS 
 
+### on Netlify
+https://ekonurarifin.netlify.app/
+
 ### on Vercel :
 https://ekonurarifin-my-id.vercel.app/
 
