@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npx browserslist@latest --update-db && next build",
     "start": "next start -p $PORT",
     "heroku-postbuild": "npm run build",
     "export": "next export"
