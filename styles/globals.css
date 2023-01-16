@@ -19,6 +19,7 @@ main {
   align-items: center;
   max-width: 80%;
   text-align: center;
+  background-color: bisque;
 }
 
 code {
