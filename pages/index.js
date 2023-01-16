@@ -37,9 +37,9 @@ export default function Home() {
           <SocialIcon target="_blank" url="https://t.me/ekonurarifin21" network="telegram" />
         </p>
         <h5 className="description">Experiences Official :</h5>
-        <p className="description"><a href="http://orenda.co.id/" target="_blank">Orenda.co.id</a> - PT. Prima Nusa Digital (Dev Lead Team @2020-current)</p>
-        <p className="description"><a href="https://hoscloud.co.id/" target="_blank">Hoscloud.co.id</a> - CV.Mitra Teknologi Digital (Project Lead @2019-2020)</p>
-        <p className="description"><a href="https://cvintermedia.com/" target="_blank">Jogjashop.com</a> - CV. Intermedia Solusindo (Junior Developer @2016-2018)</p>
+        <p className="description"><a href="http://orenda.co.id/" target="_blank">Orenda.co.id</a> - PT. Prima Nusa Digital <span className="myrole">[Dev Lead Team @2020-current]</span></p>
+        <p className="description"><a href="https://hoscloud.co.id/" target="_blank">Hoscloud.co.id</a> - CV.Mitra Teknologi Digital <span className="myrole">[Project Lead @2019-2020]</span></p>
+        <p className="description"><a href="https://cvintermedia.com/" target="_blank">Jogjashop.com</a> - CV. Intermedia Solusindo <span className="myrole">[Junior Developer @2016-2018]</span></p>
         
         <h5 className="description">Experiences Freelance :</h5>
         <p className="description"><a href="https://www.linkedin.com/company/maelsov/about/" target="_blank">PT Maelsov Mega Teknologi</a> (Freelance)</p>
