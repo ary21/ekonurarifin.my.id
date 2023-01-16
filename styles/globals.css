@@ -17,6 +17,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 80%;
+  text-align: center;
 }
 
 code {
@@ -32,6 +34,17 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.subtitle {
+  display: block;
+  font-weight: 700;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.description {
+  display: block;
 }
 
 .myrole {

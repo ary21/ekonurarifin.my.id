@@ -12,10 +12,10 @@ export default function Home() {
       </Head>
       <main>
         <Header title="Eko Nur Arifin" />
-        <p className="description" style={{ maxWidth: '80%', textAlign: 'center' }}>
+        <h3 className="subtitle">
           LOVE CODING, ENJOY EXPLORING AND SHARING. HAPPY SOLVING PROBLEMS.
-        </p>
-        <p className="description" style={{ maxWidth: '80%', textAlign: 'center' }}>
+        </h3>
+        <p className="description">
           From Indonesia, since 2016 working as a Software Developer, bachelor of informatics engineering graduate.
           Completed many projects as official work also as freelance mostly as Fullstack Web Developer but preferably like as Backend.
           Enjoy coding with js/ts stacks, 
