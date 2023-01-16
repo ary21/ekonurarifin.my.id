@@ -12,22 +12,24 @@ export default function Home() {
       </Head>
       <main>
         <Header title="Eko Nur Arifin" />
-        <p className="description">
-          <code>LOVE CODING, ENJOY EXPLORING AND SHARING. HAPPY SOLVING PROBLEMS.</code>
+        <p className="description" style={{ maxWidth: '80%', textAlign: 'center' }}>
+          LOVE CODING, ENJOY EXPLORING AND SHARING. HAPPY SOLVING PROBLEMS.
         </p>
         <p className="description" style={{ maxWidth: '80%', textAlign: 'center' }}>
-          From Indonesia, since 2016 working as a software developer, bachelor of informatics engineering graduate. Completed some projects as official work also as freelance mostly as Fullstack Web Developer but preferably more like as Backend.
+          From Indonesia, since 2016 working as a Software Developer, bachelor of informatics engineering graduate.
+          Completed many projects as official work also as freelance mostly as Fullstack Web Developer but preferably like as Backend.
+          Enjoy coding with js/ts stacks, 
         </p>
         <div style={{ textAlign: 'center' }}>
           <h5 className="description">Working with :</h5>
           <p className="description">NodeJS, ExpressJS, Typescript, NestJS, GraphQL,</p>
-          <p className="description">ReactJS, MaterialUI, Tailwind,</p>
+          <p className="description">ReactJS, NextJS, MaterialUI, Tailwind,</p>
           <p className="description">Sequelize, TypeORM, Mongoose,</p>
-          <p className="description">DB: MySQL/MariaDB, MongooDB, Postgre,</p>
+          <p className="description">DB: MySQL/MariaDB, MongooDB, Postgres,</p>
           <p className="description">PHP: Codeigniter, Laravel,</p>
           <p className="description">HTML, CSS, Javascript, JQuery, Bootstrap</p>
         </div>
-        <h5 className="description">Find me here :</h5>
+        <h5 className="description">Find me more here :</h5>
         <p className="description">
           <SocialIcon target="_blank" url="https://github.com/ary21/" />
           <SocialIcon target="_blank" url="https://www.linkedin.com/in/eko-nur-arifin/" />
@@ -36,15 +38,17 @@ export default function Home() {
           <SocialIcon target="_blank" url="https://www.instagram.com/ekonurarifin58/" />
           <SocialIcon target="_blank" url="https://t.me/ekonurarifin21" network="telegram" />
         </p>
-        <h5 className="description">Experiences :</h5>
-        <p className="description"><a href="https://cvintermedia.com/" target="_blank">CV. Intermedia Solusindo</a> (2016)</p>
-        <p className="description"><a href="https://www.ardanhosting.com/" target="_blank">CV. Ardantus Group Sejahtera</a> (Freelance)</p>
-        <p className="description"><a href="https://hpwebdesign.id" target="_blank">Halal Pro Web Design</a> (Freelance)</p>
-        <p className="description"><a href="https://dokterwebsite.id/" target="_blank">Dokterwebsite.id</a> (Freelance)</p>
-        <p className="description"><a href="https://hoscloud.co.id/" target="_blank">Hoscloud.co.id</a> - CV.Mitra Teknologi Digital (2019)</p>
+        <h5 className="description">Experiences Official :</h5>
         <p className="description"><a href="http://orenda.co.id/" target="_blank">Orenda.co.id</a> - PT. Prima Nusa Digital (2020)</p>
+        <p className="description"><a href="https://hoscloud.co.id/" target="_blank">Hoscloud.co.id</a> - CV.Mitra Teknologi Digital (2019)</p>
+        <p className="description"><a href="https://cvintermedia.com/" target="_blank">CV. Intermedia Solusindo</a> (2016)</p>
+        
+        <h5 className="description">Experiences Freelance :</h5>
+        <p className="description"><a href="https://www.linkedin.com/company/maelsov/about/" target="_blank">PT Maelsov Mega Teknologi</a> (Freelance)</p>
+        <p className="description"><a href="https://dokterwebsite.id/" target="_blank">Dokterwebsite.id</a> (Freelance)</p>
+        <p className="description"><a href="https://hpwebdesign.id" target="_blank">Halal Pro Web Design</a> (Freelance)</p>
+        <p className="description"><a href="https://www.ardanhosting.com/" target="_blank">CV. Ardantus Group Sejahtera</a> (Freelance)</p>
       </main>
-      <Footer />
     </div>
   )
 }
