@@ -1,18 +1,22 @@
-# Personal web Eko Nur Arifin
+# next-template
 
-## stack : NextJS 
+A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
 
-### on Netlify
-https://ekonurarifin.netlify.app/
+## Usage
 
-### on Vercel :
-https://ekonurarifin-my-id.vercel.app/
+```bash
+npx create-next-app -e https://github.com/shadcn/next-template
+```
 
-### on Heroku :
-https://ekonurarifin-myid.herokuapp.com/
+## Features
 
-TODO ::
-- https://dashboard.heroku.com/account/billing
-- https://devcenter.heroku.com/articles/custom-domains
-- https://help.heroku.com/WZIGJX28/why-do-i-need-to-have-a-verified-account-for-a-free-add-on-or-custom-domain
-- https://help.heroku.com/MTG1BIA7/how-do-i-connect-a-domain-to-my-heroku-app
+- Next.js 13 App Directory
+- Radix UI Primitives
+- Tailwind CSS
+- Icons from [Lucide](https://lucide.dev)
+- Dark mode with `next-themes`
+- Tailwind CSS class sorting, merging and linting.
+
+## License
+
+Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
