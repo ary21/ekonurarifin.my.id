@@ -15,7 +15,7 @@ export default function GameCard() {
       >
         <MagicCard className="w-4/3 sm:w-4/3 md:w-1/2 lg:w-1/2 flex cursor-pointer flex-col items-center justify-center overflow-hidden md:p-20 sm:p-10 shadow-2xl">
           <p className="z-10 lg:whitespace-nowrap lg:text-3xl font-medium text-gray-800 dark:text-gray-200">
-            Unfold Solution Pty Ltd<br/>(unfoldsolution.com)
+            Unfold Solution Pty Ltd<br/><a href="https://www.unfoldsolution.com/" target="_blank">unfoldsolution.com</a>
           </p>
           <span className="z-10 font-sm text-gray-800 dark:text-gray-200">
             Senior Software Engineer @2025-current
