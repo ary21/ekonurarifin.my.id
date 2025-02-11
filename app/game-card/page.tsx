@@ -45,16 +45,6 @@ export default function GameCard() {
         </MagicCard>
         <MagicCard className="w-4/3 sm:w-4/3 md:w-1/2 lg:w-1/2 flex cursor-pointer flex-col items-center justify-center overflow-hidden md:p-20 sm:p-10 shadow-2xl">
           <p className="z-10 lg:whitespace-nowrap lg:text-3xl font-medium text-gray-800 dark:text-gray-200">
-            CV. Intermedia Solusindo
-            <br/>(<a href="https://www.cvintermedia.com/" rel="noreferrer" target="_blank">cvintermedia.com</a>)
-          </p>
-          <span className="z-10 font-sm text-gray-800 dark:text-gray-200">
-            Junior Software Developer @2016-2018
-          </span>
-          <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_120%,rgba(120,119,198,0.3),rgba(255,255,255,0))]" />
-        </MagicCard>
-        <MagicCard className="w-4/3 sm:w-4/3 md:w-1/2 lg:w-1/2 flex cursor-pointer flex-col items-center justify-center overflow-hidden md:p-20 sm:p-10 shadow-2xl">
-          <p className="z-10 lg:whitespace-nowrap lg:text-3xl font-medium text-gray-800 dark:text-gray-200">
             PT Maelsov Mega Teknologi
             <br/>(<a href="https://cekori.com/" rel="noreferrer" target="_blank">cekori.com</a>)
           </p>
@@ -89,6 +79,16 @@ export default function GameCard() {
           </p>
           <span className="z-10 font-sm text-gray-800 dark:text-gray-200">
             Freelance @2018
+          </span>
+          <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_120%,rgba(120,119,198,0.3),rgba(255,255,255,0))]" />
+        </MagicCard>
+        <MagicCard className="w-4/3 sm:w-4/3 md:w-1/2 lg:w-1/2 flex cursor-pointer flex-col items-center justify-center overflow-hidden md:p-20 sm:p-10 shadow-2xl">
+          <p className="z-10 lg:whitespace-nowrap lg:text-3xl font-medium text-gray-800 dark:text-gray-200">
+            CV. Intermedia Solusindo
+            <br/>(<a href="https://www.cvintermedia.com/" rel="noreferrer" target="_blank">cvintermedia.com</a>)
+          </p>
+          <span className="z-10 font-sm text-gray-800 dark:text-gray-200">
+            Junior Software Developer @2016-2018
           </span>
           <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_120%,rgba(120,119,198,0.3),rgba(255,255,255,0))]" />
         </MagicCard>
