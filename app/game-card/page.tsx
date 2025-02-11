@@ -15,10 +15,19 @@ export default function GameCard() {
       >
         <MagicCard className="w-4/3 sm:w-4/3 md:w-1/2 lg:w-1/2 flex cursor-pointer flex-col items-center justify-center overflow-hidden md:p-20 sm:p-10 shadow-2xl">
           <p className="z-10 lg:whitespace-nowrap lg:text-3xl font-medium text-gray-800 dark:text-gray-200">
+            Unfold Solution Pty Ltd (unfoldsolution.com)
+          </p>
+          <span className="z-10 font-sm text-gray-800 dark:text-gray-200">
+            Senior Software Engineer @2025-current
+          </span>
+          <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_120%,rgba(120,119,198,0.3),rgba(255,255,255,0))]" />
+        </MagicCard>
+        <MagicCard className="w-4/3 sm:w-4/3 md:w-1/2 lg:w-1/2 flex cursor-pointer flex-col items-center justify-center overflow-hidden md:p-20 sm:p-10 shadow-2xl">
+          <p className="z-10 lg:whitespace-nowrap lg:text-3xl font-medium text-gray-800 dark:text-gray-200">
             PT. Prima Nusa Digital (orenda.co.id)
           </p>
           <span className="z-10 font-sm text-gray-800 dark:text-gray-200">
-            Dev Lead Team @2020-current
+            Dev Lead Team @2020-2024
           </span>
           <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_120%,rgba(120,119,198,0.3),rgba(255,255,255,0))]" />
         </MagicCard>
