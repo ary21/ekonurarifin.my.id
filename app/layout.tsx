@@ -17,11 +17,30 @@ import GlobePage from "./globe-section/page"
 import NostalgiaPage from "./nostalgia-section/page"
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ekonurarifin.my.id"),
   title: {
     default: siteConfig.name,
     template: `%s - ${siteConfig.name}`,
   },
   description: siteConfig.description,
+  openGraph: {
+    title: siteConfig.name,
+    description: siteConfig.description,
+    type: "website",
+    url: "/",
+    images: [
+      {
+        url: "/profile.jpeg",
+        alt: "Foto profil Eko Nur Arifin",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: ["/profile.jpeg"],
+  },
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },

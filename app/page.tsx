@@ -35,8 +35,12 @@ export default function IndexPage() {
           mostly as Fullstack Web Developer, preferably like as Backend. Enjoy
           coding with js/ts stacks, and have fun to keep exploring.{' '}
           <br />
-          <a href="https://s.id/eko-resume" target="_blank" rel="noreferrer" className="font-medium underline underline-offset-4">
-            resume docs
+          <a href="https://docs.google.com/document/d/1_Abyjin5AYbuDSI9qqvMJ7LTEOT00tjR/edit?usp=sharing&ouid=104393865804758303631&rtpof=true&sd=true" target="_blank" rel="noreferrer" className="font-medium underline underline-offset-4">
+            CV
+          </a>
+          <span> & </span>
+          <a href="https://docs.google.com/document/d/1RK5mb0fS0eRkFb4nSoh5QPrIT2MiGsQGQ5pFNvMIgkw/edit?usp=sharing" target="_blank" rel="noreferrer" className="font-medium underline underline-offset-4">
+            Portfolio
           </a>
         </p>
       </div>
