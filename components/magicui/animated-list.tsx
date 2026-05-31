@@ -3,6 +3,8 @@
 import { AnimatePresence, motion } from "framer-motion";
 import React, { ReactElement, useEffect, useMemo, useState } from "react";
 
+const AnimatePresenceWrapper = AnimatePresence as unknown as React.ComponentType<React.PropsWithChildren<{}>>
+
 export const AnimatedList = React.memo(
   ({
     className,
@@ -31,13 +33,13 @@ export const AnimatedList = React.memo(
 
     return (
       <div className={`flex flex-col items-center gap-4 ${className}`}>
-        <AnimatePresence>
+        <AnimatePresenceWrapper>
           {itemsToShow.map((item) => (
             <AnimatedListItem key={(item as ReactElement).key}>
               {item}
             </AnimatedListItem>
           ))}
-        </AnimatePresence>
+        </AnimatePresenceWrapper>
       </div>
     );
   },
